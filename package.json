@@ -2,6 +2,13 @@
   "name": "direcal",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "fs": false,
+    "child_process": false,
+    "http2": false,
+    "net": false,
+    "tls": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,6 +25,7 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-google-calendar-api": "^2.1.0",
     "typescript": "4.9.5"
   }
 }
